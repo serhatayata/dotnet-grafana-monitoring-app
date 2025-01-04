@@ -22,4 +22,6 @@ When used together, these tools provide a comprehensive monitoring and observabi
 - OpenTelemetry provides app-level telemetry data (traces, metrics, and logs).
 - Grafana visualizes all collected data in custom dashboards for real-time monitoring and alerting.
 
-  ![image](https://github.com/user-attachments/assets/14615e45-3224-4b9e-a64f-a10e7e968895)
+---
+
+![image](https://github.com/user-attachments/assets/14615e45-3224-4b9e-a64f-a10e7e968895)
