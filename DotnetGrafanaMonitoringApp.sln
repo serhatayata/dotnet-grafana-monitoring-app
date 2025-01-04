@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetGrafanaMonitoringApp", "DotnetGrafanaMonitoringApp\DotnetGrafanaMonitoringApp.csproj", "{387B0104-0BCF-4075-80ED-E7E5E64146BD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1DC48F1A-26FC-44B1-A57B-E393B7545B50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{B4BF8005-CEB8-492A-BA8E-84B1E09A3B8E}"
+	ProjectSection(SolutionItems) = preProject
+		config\otel-collector-config.yml = config\otel-collector-config.yml
+		config\prometheus.yml = config\prometheus.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{387B0104-0BCF-4075-80ED-E7E5E64146BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387B0104-0BCF-4075-80ED-E7E5E64146BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387B0104-0BCF-4075-80ED-E7E5E64146BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387B0104-0BCF-4075-80ED-E7E5E64146BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC48F1A-26FC-44B1-A57B-E393B7545B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC48F1A-26FC-44B1-A57B-E393B7545B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC48F1A-26FC-44B1-A57B-E393B7545B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC48F1A-26FC-44B1-A57B-E393B7545B50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

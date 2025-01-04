@@ -1,0 +1,6 @@
+@DotnetGrafanaMonitoringApp_HostAddress = http://localhost:7000
+
+GET {{DotnetGrafanaMonitoringApp_HostAddress}}/
+Accept: application/json
+
+###
